@@ -80,11 +80,11 @@ swiperdd.el.onmouseout = function () {
 // }
 
 // 全畫面
-// var x = document.querySelector('.x')
-// x.addEventListener('click', function () {
-//   var as = document.querySelector('.all-screen')
-//   as.parentNode.removeChild(as)
-// })
+var x = document.querySelector('.x')
+x.addEventListener('click', function () {
+  var as = document.querySelector('.all-screen')
+  as.parentNode.removeChild(as)
+})
 
 // 計數器
 var numberOfbouns = 1687368
