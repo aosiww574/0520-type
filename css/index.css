@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: sans-serif, Arial, serif;
+}
+.all {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #aaa;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../image/back3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.all .all-screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 30;
+}
+.all .all-screen .pop {
+  width: 100%;
+  position: relative;
+}
+.all .all-screen .pop img {
+  width: 100%;
+}
+.all .all-screen .pop .x {
+  position: absolute;
+  width: 10%;
+  right: 10%;
+  top: 0;
+}
+.all .header {
+  margin-top: -5px;
+}
+.all .header .img1 {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+.all .header .img2 {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.all .sc {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.all .sc2 {
+  width: 85%;
+  margin: 40px auto;
+}
+.all .part1 {
+  width: 100%;
+}
+.all .part1 .img3 {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+.all .part2 {
+  width: 55%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+.all .part2 button {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+}
+.all .part2 .text {
+  width: 100%;
+  margin-top: 10px;
+}
+.all .part2 .img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
+  position: relative;
+  z-index: 2;
+}
+.all .part2 .test2 {
+  position: absolute;
+  top: -3px;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.all .part2 .test1 {
+  position: absolute;
+  top: -3px;
+  left: 10%;
+  height: 24px;
+  height: 80%;
+  width: 22px;
+  background-color: silver;
+  background-color: orange;
+  background-position: 50% 0;
+  box-shadow: 0 0 3px #e33f64, 0 0 13px #e33f64;
+  animation: aaa 3s ease-in-out infinite normal;
+  z-index: 1;
+}
+.all .part2 .pointer {
+  display: block;
+  position: absolute;
+  width: 20%;
+  top: 35%;
+  right: 0;
+  z-index: 3;
+  animation: Zoom 1.5s infinite;
+}
+@keyframes aaa {
+  0% {
+    left: 10%;
+  }
+  50% {
+    left: 82%;
+  }
+  71% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.all .ad {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.all .ad img {
+  width: 100%;
+  display: block;
+}
+.all .part3 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.all .part3 img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.all .part3 .logo {
+  width: 90%;
+}
+.all footer {
+  z-index: 1;
+  margin-bottom: 30px;
+}
+.all footer .img4 {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+.swiper-container {
+  /* 輪播長和寬 */
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -5px;
+  overflow: hidden;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: transparent;
+}
+.swiper-slide img {
+  width: 85%;
+}
+.swiper-container-horizontal .swiper-pagination-bullets {
+  bottom: -2px;
+}
+.dd img {
+  width: 80%;
+  border-radius: 15px;
+}
+.numberGroup {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.numberGroup .jockpot {
+  width: 35%;
+  margin-right: -10px;
+}
+.numberGroup .jp {
+  width: 100%;
+}
+.numberGroup .numberItem {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  width: 34px;
+  height: 50px;
+  height: 36px;
+  /* 背景图片 */
+  background: url(../image/number-bg2.png) no-repeat center center;
+  background-size: 100% 100%;
+  font-size: 62px;
+  font-size: 34px;
+  line-height: 82px;
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  overflow: hidden;
+}
+.numberGroup .numberItem span {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  letter-spacing: 10px;
+  transition: all 1s;
+}
+.numberGroup .numberItem #million {
+  transform: translate(-50%, -10%);
+}
+.numberGroup .numberItem #hThousand {
+  transform: translate(-50%, -60%);
+}
+.numberGroup .numberItem #tenThousand {
+  transform: translate(-50%, 0%);
+}
+.numberGroup .numberItem #thousand {
+  transform: translate(-50%, -10%);
+}
+.numberGroup .numberItem #hundreds {
+  transform: translate(-50%, -20%);
+}
+.numberGroup .numberItem #tens {
+  transform: translate(-50%, -30%);
+}
+.numberGroup .numberItem #digits {
+  transform: translate(-50%, -40%);
+}
+@keyframes Zoom {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 200px;
+}
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+#slideshow > div > img {
+  width: 100%;
+}
